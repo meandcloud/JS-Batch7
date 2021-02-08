@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="task7.js"></script>
+    <title>Assignment 1</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+          <h1 class="text-center">ASSIGNMENT 1</h1>  
+          <h3>TASK 7</h3>      
+      </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 mx-auto">
+                <h1 class="text-center" id="heading"></h1>
+                <p class="p-2">
+                    Variable names can only contain&nbsp;
+                    <u id="letter"></u> 
+                    <u id="sign"></u>
+                    <u id="symbol"></u>&nbsp;&nbsp;
+                    <button class="btn btn-dark" onclick="myAnswerB()">Answer B</button>
+                </p>
+
+               <p id="two">
+                   
+               </p>
+
+               <p id="three">
+                   
+                </p>
+
+                <p id="four">
+                   
+                </p>
+                
+            </div>
+        </div>
+    </div>
+      
+  
+</body>
+
+<script>
+    document.getElementById("heading").innerHTML = "Rules for naming JS variables";
+
+    document.getElementById("two").innerHTML = "Variable can only contain number, $, and _. For example: $my_1stVariable "
+
+    function myAnswerB(){
+        document.getElementById("letter").innerHTML = "letter"
+        document.getElementById("sign").innerHTML = "sign"
+        document.getElementById("symbol").innerHTML = "symbol"
+    }
+
+
+    document.getElementById("three").innerHTML = "Variables names are case sensitive"
+    document.getElementById("four").innerHTML = "Variables names should not be JS keyword"
+
+    
+</script>
+</html>
