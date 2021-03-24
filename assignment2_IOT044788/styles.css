@@ -1,0 +1,85 @@
+.main{
+    background-color: #333;
+    color: black;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+ ;
+}
+
+
+.mySignal{
+    background-color: honeydew;
+}
+
+.sub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#red{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;  
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    display: none;
+ 
+}
+
+#yellow{
+    background-color: yellow;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: none;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+}
+
+#green{
+    background-color: greenyellow;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 15px; 
+    margin-bottom: 15px;
+    display: none;
+    
+}
+
+#one{
+    background-color: hotpink;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    border-radius: 8px;
+    color: white;
+
+}
+
+#two{
+    background-color: gold;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    border-radius: 8px;
+    color: white;
+}
+
+#three{
+    background-color: #00ff80;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    border-radius: 8px;
+    color: white;
+}
+
+#police{
+    margin-top: 10px;
+    visibility: hidden;
+}
+

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>TASK 1</title>
+    <script src="task2.js"></script>
+    <title>TASK 2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+          <h1>Assignment 2</h1>
+        </div>      
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="form-group">
+                        <input type="text" class="form-control"
+                        placeholder="Enter color of traffic signal"
+                        id="showMsg"
+                        >
+                    </div>
+                    <button type="button" class="btn btn-dark" onclick="signal()">
+                        Submit
+                    </button>
+                    <button type="button" class="btn btn-warning" onclick="myReset()">
+                        Reset
+                    </button>
+                </form>
+            </div>
+
+            <div class="col-md-6 mySignal">
+                <h1 class="text-center" id="police"><strong>Follow The Police Men Direction</strong></h1>
+                <div class="main">
+                    <div class="sub">
+                    <span id="red">
+                     <p id="one">Must Stop</p>   
+                    </span>
+                    </div>
+
+                    <div class="sub">
+                    <span id="yellow">
+                        <p id="two">Ready to move</p>   
+                    </span>
+                </div>
+
+                    <div class="sub">
+                    <span id="green">
+                        <p id="three">Move Now</p>   
+                    </span>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

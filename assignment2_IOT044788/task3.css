@@ -1,0 +1,16 @@
+.income, .expense {
+    border-right: 1px solid #ddd;
+    text-align: center;
+    background-color: #F8F8F8;
+}
+
+.income, .expense, .balance, h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.balance{
+    text-align: center;
+    background-color: #F8F8F8;
+}
